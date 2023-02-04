@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 8571763263650212718}
   - component: {fileID: -4675898438722699711}
   m_Layer: 0
-  m_Name: Square (1)
-  m_TagString: Untagged
+  m_Name: Lobster
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
