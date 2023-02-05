@@ -586,6 +586,7 @@ GameObject:
   - component: {fileID: 491483300}
   - component: {fileID: 491483299}
   - component: {fileID: 491483298}
+  - component: {fileID: 491483302}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -675,6 +676,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &491483302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491483297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41cbb7d1e6dfd441bdcf6d94470812f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoreText: {fileID: 1847368759}
+  _timerText: {fileID: 786663414}
+  _lifeText: {fileID: 82228244}
+  Timer: {fileID: 2005119591}
+  scoreScript: {fileID: 1788827919}
 --- !u!1001 &501350957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2820,6 +2838,7 @@ GameObject:
   - component: {fileID: 1802910297}
   - component: {fileID: 1802910296}
   - component: {fileID: 1802910295}
+  - component: {fileID: 1802910294}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2834,7 +2853,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802910292}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2845,9 +2864,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -51.5}
   m_SizeDelta: {x: 150, y: 48.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1802910294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802910292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c6c1ac505f2bd43af2fda01ef0e113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1802910295
 MonoBehaviour:
   m_ObjectHideFlags: 0
